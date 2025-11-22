@@ -1,0 +1,8 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+https://practicesoftwaretesting.com/,2,558,288,828,270.00,0.000%,.01144,0.05,0.01,4494.0
+Test,1,828,828,828,0.00,0.000%,1.07875,8.74,0.57,8295.0
+https://practicesoftwaretesting.com/auth/login,1,1068,1068,1068,0.00,0.000%,.93633,7.58,0.47,8288.0
+register new account,1,1068,1068,1068,0.00,0.000%,.01393,0.11,0.01,8288.0
+https://practicesoftwaretesting.com/account,1,200,200,200,0.00,0.000%,5.00000,40.44,2.51,8282.0
+Login,1,488,488,488,0.00,0.000%,.00978,0.09,0.01,8975.0
+TOTAL,7,681,200,1068,330.76,0.000%,.04001,0.29,0.02,7302.3

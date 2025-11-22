@@ -1,0 +1,26 @@
+✅ API Automation Report – Key Points
+1. Created Postman Collection for ReqRes API testing.
+2. Added Create User (POST) request with JSON payload.
+3. Added test assertions:
+
+Status code = 201
+
+Validate name and job
+
+Validate generated ID
+
+Validate response time < 1000ms
+
+Saved userId using environment variables
+
+4. Added Get User (GET) request using {{userId}}.
+
+Validated 200 or 404 (due to mock API)
+
+5. Added Delete User (DELETE) request using {{userId}}.
+
+Validated status 204
+
+6. Executed the entire flow using Postman Collection Runner.
+7. Ran the same collection using Newman (CLI).
+8. Generated HTML report using Newman HTML Extra reporter.
